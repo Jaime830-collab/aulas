@@ -1,0 +1,32 @@
+<?php
+	//tipos de dados, simples, compostos e especiais
+
+	$a =24.65;
+	$b = 6.02e23; //6.02 elevado a 23
+	$c = 1.8E-18;
+
+	var_dump($a);//mostra o tipo ex: int
+	echo "<br>";
+	var_dump($b);
+	echo "<br>";
+	var_dump($c);
+	echo "<br>";
+	
+print("Num.1: $a<br> Num.2: $b<br> Num.3: $c<br>");
+
+$x = True;
+$y = False;
+if ($x == True){
+		echo "Valor verdadeiro<br>";
+	}
+if ($y == True){
+	echo "Valor verdadeiro";
+}
+else{
+	echo "Valor falso<br>";
+}
+$nome = "James";
+$sobrenome = " Vaz";
+echo "My name is $nome $sobrenome <br>";
+
+?>
